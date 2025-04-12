@@ -1,0 +1,61 @@
+body {  
+  font-family: Arial, sans-serif;  
+  background-color: #f4f4f4;  
+}  
+
+p {  
+  font-size: 24px;  
+  text-align: center;  
+  margin-top: 20px;  
+}  
+
+/* Style for Inputs */  
+.todo-name, .todo-history {  
+  width: 300px; /* Make the input fields larger */  
+  padding: 15px;  
+  margin: 10px auto;  
+  display: block;  
+  border: 2px solid #ccc; /* Slightly darker border for input */  
+  border-radius: 5px;  
+}  
+
+/* Style for Add Button */  
+.add-button {  
+  padding: 15px 30px; /* Larger button */  
+  background-color: red; /* Red background */  
+  color: white; /* White text */  
+  border: none;  
+  border-radius: 5px;  
+  cursor: pointer;  
+  font-size: 18px; /* Increase font size */  
+  display: block;  
+  margin: 10px auto;  
+}  
+
+/* Style for Todo List Display */  
+.todolist-display {  
+  margin: 20px auto;  
+  max-width: 600px; /* Box width for the list */  
+  background-color: white; /* White background for the list */  
+  padding: 20px;  
+  border-radius: 5px;  
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Subtle shadow */  
+}  
+
+/* Style for Individual Todo Items */  
+.todolist-display p {  
+  display: flex; /* Align items in a row */  
+  justify-content: space-between; /* Space out text and delete button */  
+  padding: 10px 0; /* Padding for each todo item */  
+  border-bottom: 1px solid #eee; /* Dividing line between items */  
+}  
+
+/* Style for Delete Button */  
+.todolist-display button {  
+  padding: 10px 20px; /* Larger delete button */  
+  background-color: green; /* Green background */  
+  color: white; /* White text */  
+  border: none;  
+  border-radius: 5px;  
+  cursor: pointer;  
+}  
